@@ -4376,6 +4376,9 @@ exports.Formats = [
 		ruleset: ['Pokemon', 'Standard GBU', 'Team Preview VGC'],
 		banlist: ['Tornadus + Defiant', 'Thundurus + Defiant', 'Landorus + Sheer Force'],
 		requirePentagon: true,
+		validateTeam: function (team, format) {
+			if (team.length < 3) return ['You must bring at least three Pokémon.'];
+		},
 		onBegin function () {
 			this.debug('cutting down to 3');
 			this.p1.pokemon = this.p1.pokemon.slice(0, 3);
@@ -4394,6 +4397,9 @@ exports.Formats = [
 		ruleset: ['Pokemon', 'Standard GBU', 'Team Preview VGC'],
 		banlist: ['Tornadus + Defiant', 'Thundurus + Defiant', 'Landorus + Sheer Force'],
 		requirePentagon: true,
+		validateTeam: function (team, format) {
+			if (team.length < 3) return ['You must bring at least three Pokémon.'];
+		},
 		onBegin: function () {
 			this.debug('cutting down to 3');
 			this.p1.pokemon = this.p1.pokemon.slice(0, 3);
