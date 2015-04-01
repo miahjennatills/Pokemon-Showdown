@@ -4371,7 +4371,6 @@ exports.Formats = [
 		name: "Battle Tower Rentals",
 		section: "Battle Frontier",
 
-		team: 'random',
 		maxForcedLevel: 50,
 		ruleset: ['Pokemon', 'Standard GBU', 'Team Preview VGC'],
 		banlist: ['Tornadus + Defiant', 'Thundurus + Defiant', 'Landorus + Sheer Force'],
@@ -4392,7 +4391,6 @@ exports.Formats = [
 		section: "Battle Frontier",
 
 		mod: 'Battledome',
-		team: 'random',
 		maxForcedLevel: 50,
 		ruleset: ['Pokemon', 'Standard GBU', 'Team Preview VGC'],
 		banlist: ['Tornadus + Defiant', 'Thundurus + Defiant', 'Landorus + Sheer Force'],
