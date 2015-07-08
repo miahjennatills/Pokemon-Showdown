@@ -4406,5 +4406,12 @@ exports.Formats = [
 			this.p2.pokemonLeft = this.p2.pokemon.length;
 			}
 		},
+{
+		name: "NFE",
+		section: "ORAS Singles",
+
+		ruleset: ['Pokemon', 'Standard', 'Team Preview', 'Swagger Clause', 'Baton Pass Clause'],
+		banlist: ['Uber', 'OU', 'UU', 'RU', 'NU', 'PU', 'Gligar']
+	},
 ];
 ];
