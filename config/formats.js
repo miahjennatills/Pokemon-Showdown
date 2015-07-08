@@ -4416,4 +4416,4 @@ exports.Formats = [
 		banlist: ['Uber', 'OU', 'UU', 'RU', 'NU', 'PU', 'Gligar']
 	},
 ];
-];
+
