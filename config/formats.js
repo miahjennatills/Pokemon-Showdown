@@ -4415,7 +4415,7 @@ exports.Formats = [
 		ruleset: ['Pokemon', 'Species Clause', 'Moody Clause', 'Baton Pass Clause', 'Evasion Moves Clause', 'OHKO Clause',
 			'Swagger Clause', 'Endless Battle Clause', 'Team Preview', 'HP Percentage Mod', 'Sleep Clause Mod', 'Cancel Mod'
 		],
-		banlist: ['Uber', 'OU', 'UU', 'RU', 'NU', 'PU', 'Item Clause', 'Chansey', 'Dusclops', 'Scyther', 'Electabuzz', 'Porygon2', 'Rhydon', 'Haunter', 'Kadabra', 'Gurdurr', 'Magneton', 'Frogadier', 'Machoke']
+		banlist: ['Uber', 'OU', 'UU', 'RU', 'NU', 'PU', 'Eviolite', 'Chansey', 'Dusclops', 'Scyther', 'Electabuzz', 'Porygon2', 'Rhydon', 'Haunter', 'Kadabra', 'Gurdurr', 'Magneton', 'Frogadier', 'Machoke']
 	},
 ];
 
