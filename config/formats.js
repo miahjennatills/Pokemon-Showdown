@@ -4370,13 +4370,14 @@ exports.Formats = [
 	{
 		name: "Battle Tower Rentals",
 		section: "Battle Frontier",
-
+			
+		team: 'random',
 		maxForcedLevel: 50,
 		ruleset: ['Pokemon', 'Team Preview VGC', 'Sleep Clause Mod', 'HP Percentage Mod'],
 		banlist: ['Tornadus + Defiant', 'Thundurus + Defiant', 'Landorus + Sheer Force'],
 		requirePentagon: true,
 		validateTeam: function (team, format) {
-			if (team.length < 3) return ['You must bring at least three Pokémon.'];
+			if (team.length < 4) return ['You must bring at least three Pokémon.'];
 		},
 		onBegin: function () {
 			this.debug('cutting down to 3');
@@ -4399,7 +4400,7 @@ exports.Formats = [
 			if (team.length < 3) return ['You must bring at least three Pokémon.'];
 		},
 		onBegin: function () {
-			this.debug('cutting down to 3');
+			this.debug('cutting down to 4');
 			this.p1.pokemon = this.p1.pokemon.slice(0, 3);
 			this.p1.pokemonLeft = this.p1.pokemon.length;
 			this.p2.pokemon = this.p2.pokemon.slice(0, 3);
@@ -4413,7 +4414,7 @@ exports.Formats = [
 		ruleset: ['Pokemon', 'Species Clause', 'Moody Clause', 'Baton Pass Clause', 'Evasion Moves Clause', 'OHKO Clause',
 			'Swagger Clause', 'Endless Battle Clause', 'Team Preview', 'HP Percentage Mod', 'Sleep Clause Mod', 'Cancel Mod'
 		],
-		banlist: ['Uber', 'OU', 'UU', 'RU', 'NU', 'PU', 'Gligar']
+		banlist: ['Uber', 'OU', 'UU', 'RU', 'NU', 'PU', 'Item Clause', 'Chansey', 'Dusclops', 'Scyther', 'Electabuzz', 'Porygon2', 'Rhydon', 'Haunter', 'Kadabra', 'Gurdurr', 'Magneton', 'Frogadier', 'Machoke']
 	},
 ];
 
