@@ -4372,7 +4372,7 @@ exports.Formats = [
 		section: "Battle Frontier",
 
 		maxForcedLevel: 50,
-		ruleset: ['Pokemon', 'Standard GBU', 'Team Preview VGC', 'Sleep Clause Mod', 'HP Percentage Mod'],
+		ruleset: ['Pokemon', 'Team Preview VGC', 'Sleep Clause Mod', 'HP Percentage Mod'],
 		banlist: ['Tornadus + Defiant', 'Thundurus + Defiant', 'Landorus + Sheer Force'],
 		requirePentagon: true,
 		validateTeam: function (team, format) {
@@ -4392,7 +4392,7 @@ exports.Formats = [
 
 		mod: 'Battledome',
 		maxForcedLevel: 50,
-		ruleset: ['Pokemon', 'Standard GBU', 'HP Percentage Mod', 'Swagger Clause', 'Team Preview VGC', 'Sleep Clause Mod', 'Endless Battle Clause', 'Moody Clause', 'Species Clause', 'Evasion Moves Clause', 'OHKO Clause'],
+		ruleset: ['Pokemon', 'HP Percentage Mod', 'Swagger Clause', 'Team Preview VGC', 'Sleep Clause Mod', 'Endless Battle Clause', 'Moody Clause', 'Species Clause', 'Evasion Moves Clause', 'OHKO Clause'],
 		banlist: ['Tornadus + Defiant', 'Thundurus + Defiant', 'Landorus + Sheer Force'],
 		requirePentagon: true,
 		validateTeam: function (team, format) {
