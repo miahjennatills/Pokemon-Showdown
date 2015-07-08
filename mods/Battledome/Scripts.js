@@ -15,7 +15,7 @@ exports.BattleScripts = {
 			                    case 'Brave':
 			                    case 'Adamant':
 			                    case 'Naughty':
-				                        adjustment = 30;
+				                        adjustment = 50;
 			                    }
 
 			                     if (adjustment) {
@@ -26,7 +26,7 @@ exports.BattleScripts = {
 			                    case 'Relaxed':
 			                    case 'Impish':
 			                    case 'Lax':
-				                        adjustment = 30;
+				                        adjustment = 50;
 		                      	    }
 		           
 		                       	    if (adjustment) {
@@ -37,7 +37,7 @@ exports.BattleScripts = {
 			                    case 'Mild':
 			                    case 'Quiet':
 			                    case 'Rash':
-				                        adjustment = 30;
+				                        adjustment = 50;
 		                            }
 		           
 		                            if (adjustment) {
@@ -48,7 +48,7 @@ exports.BattleScripts = {
 			                    case 'Gentle':
 			                    case 'Sassy':
 			                    case 'Careful':
-				                        adjustment = 30;
+				                        adjustment = 50;
 		                            }
 		           
 		                            if (adjustment) {
@@ -59,7 +59,7 @@ exports.BattleScripts = {
 			                    case 'Hasty':
 			                    case 'Jolly':
 			                    case 'Naive':
-				                        adjustment = 30;
+				                        adjustment = 50;
 		                            }
 		           
 		                            if (adjustment) {
@@ -70,7 +70,7 @@ exports.BattleScripts = {
 			                    case 'Timid':
 			                    case 'Modest':
 			                    case 'Calm':
-				                        adjustment = 30;
+				                        adjustment = 80;
 			                    }
 
 			                    if (adjustment) {
@@ -81,7 +81,7 @@ exports.BattleScripts = {
 			                    case 'Hasty':
 			                    case 'Mild':
 			                    case 'Gentle':
-				                        adjustment = 30;
+				                        adjustment = 80;
 		                            }
 		           
 		                            if (adjustment) {
@@ -92,7 +92,7 @@ exports.BattleScripts = {
 			                    case 'Impish':
 			                    case 'Jolly':
 			                    case 'Careful':
-				                        adjustment = 30;
+				                        adjustment = 80;
 		                            }
 		           
 		                            if (adjustment) {
@@ -103,7 +103,7 @@ exports.BattleScripts = {
 			                    case 'Lax':
 			                    case 'Naive':
 			                    case 'Rash':
-				                        adjustment = 30;
+				                        adjustment = 80;
 		                            }
 		           
 		                            if (adjustment) {
@@ -114,7 +114,7 @@ exports.BattleScripts = {
 			                    case 'Relaxed':
 			                    case 'Quiet':
 			                    case 'Sassy':
-				                        adjustment = 30;
+				                        adjustment = 80;
 		                            }
 		           
 		                            if (adjustment) {
